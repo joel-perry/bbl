@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #AAAAAA;
 }
 
 h1,
@@ -105,6 +105,11 @@ header .intro-text .name {
 }
 
 header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+header .intro-text .about {
     font-size: 1.25em;
     font-weight: 300;
 }
